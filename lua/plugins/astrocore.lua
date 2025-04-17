@@ -80,6 +80,10 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+
+        -- x and dd doesn't yank
+        ["x"] = { '"_x' },
+        ["dd"] = { '"_dd' },
       },
       i = {
         -- emacs like key mapping
