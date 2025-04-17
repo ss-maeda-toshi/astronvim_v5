@@ -81,6 +81,18 @@ return {
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
       },
+      i = {
+        -- emacs like key mapping
+        ["<C-f>"] = { "<Right>" },
+        ["<C-b>"] = { "<Left>" },
+        ["<C-a>"] = { "<Home>" },
+        ["<C-e>"] = { "<End>" },
+      },
+      t = {
+        -- setting a mapping to false will disable it
+        -- ["<esc>"] = false,
+        ["<C-h>"] = { "<BS>" },
+      },
     },
   },
 }
