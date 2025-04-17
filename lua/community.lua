@@ -14,5 +14,6 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  { import = "astrocommunity.colorscheme.vscode-nvim" },
   -- import/override with your plugins folder
 }
