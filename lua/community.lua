@@ -13,5 +13,6 @@ return {
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
   -- import/override with your plugins folder
 }
